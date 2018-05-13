@@ -1,0 +1,25 @@
+{
+  "package": {
+    "name": "jredisearch",
+    "repo": "maven",
+    "subject": "techdev-solutions",
+    "desc": "jredisearch test",
+    "website_url": "https://txplorer.io",
+    "issue_tracker_url": "https://github.com/nfleury/JRediSearch/issues",
+    "vcs_url": "https://github.com/nfleury/JRediSearch.git",
+    "licenses": ["Apache-2.0"],
+    "labels": ["bintray"],
+    "public_download_numbers": false,
+    "public_stats": false
+  },
+
+  "version": {
+    "name": "1.0.0-SNAPSHOT"
+  },
+
+  "files":
+  [
+    {"includePattern": "target/(.*)", "uploadPattern": "com/github/jredisearch/1.0.0-SNAPSHOT/$1"}
+  ],
+  "publish": true
+}
