@@ -4,6 +4,7 @@
 !**/*.jar
 !**/*.md
 !.gitignore
+!.travis.yml
 !pom.xml
 !.circleci/**
 .idea/
