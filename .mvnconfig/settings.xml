@@ -1,0 +1,5 @@
+<server>
+                <id>bintray-nfleury-repo-test1</id>
+                <username>nfleury</username>
+                <password>${MVN_REPO_PWD}</password>
+</server>

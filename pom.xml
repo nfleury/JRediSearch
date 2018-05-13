@@ -59,12 +59,15 @@
         <maven.test.target>8</maven.test.target>
     </properties>
 
+
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
+                    <repository>
+                    <id>bintray-nfleury-repo-test1</id>
+                    <name>nfleury-repo-test1</name>
+                    <url>https://api.bintray.com/maven/nfleury/repo-test1/repo-test1/;publish=1</url>
+                    </repository>
     </distributionManagement>
+
     <build>
         <plugins>
             <plugin>

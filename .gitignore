@@ -6,6 +6,7 @@
 !.gitignore
 !.travis.yml
 !descriptor.json
+!.mvnconfig/**
 !pom.xml
 !.circleci/**
 .idea/
