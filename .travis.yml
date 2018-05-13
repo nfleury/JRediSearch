@@ -1,4 +1,4 @@
 language: java
 jdk: oraclejdk8
 sudo: false
-script: mvn -s .mvnconfig/settings.xml publish -DskipTests
+script: mvn -s .mvnconfig/settings.xml deploy -DskipTests
