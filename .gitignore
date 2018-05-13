@@ -5,6 +5,7 @@
 !**/*.md
 !.gitignore
 !.travis.yml
+!descriptor.json
 !pom.xml
 !.circleci/**
 .idea/
